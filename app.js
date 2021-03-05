@@ -34,11 +34,11 @@ const Republican = presidents.filter(function (president) {
 
 console.log(Republican);
 
-//3) return only the last three presidents
+//3) return only the last three presidents (is it the most recent three or last three on the list? I'm going to do last three on the list)
 
-const lastThree = presidents;
+const lastThree = presidents.slice(9, 12);
 
-console.table(lastThree);
+console.log(lastThree);
 
 //4) log all dems who served 2 terms. HINT use chain filter, filter and slice
 
